@@ -1,0 +1,428 @@
+.order{
+    position: absolute;
+width: 1207px;
+height: 322px;
+left: 83px;
+top: 277px;
+
+}
+.img{
+    position: absolute;
+width: 322px;
+height: 322px;
+left: 0px;
+top: 0px;
+
+background: url(images/img.png);
+border-radius: 24px;
+}
+.productdetails{
+    position: absolute;
+width: 838px;
+height: 303px;
+left: 369px;
+top: 0px;
+
+}
+.review{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 71px;
+
+position: absolute;
+width: 838px;
+height: 47px;
+left: 0px;
+top: 256px;
+}
+.stars{
+    width: 160px;
+height: 28px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.start1{
+    position: absolute;
+width: 16px;
+height: 28px;
+left: 0px;
+top: 0px;
+
+background: #D9D9D9;
+}
+.orderdeliverd{
+    width: 350px;
+height: 32px;
+
+/* Paragraph 01 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+margin: 0px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.button{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px 44px;
+gap: 10px;
+
+width: 190px;
+height: 47px;
+
+background: #FFFFFF;
+/* Secondary color */
+
+border: 1px solid #1F1F1F;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.buttontext{
+   
+/* Paragraph 02 */
+
+font-family: 'Quicksand';
+
+font-weight: 600;
+font-size: 16px;
+
+/* or 150% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+margin: 0px;
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.addressandedit{
+    
+position: absolute;
+width: 691px;
+height: 64px;
+left: 1px;
+top: 52px;
+
+}
+.edit{
+    
+position: absolute;
+width: 36px;
+height: 36px;
+left: 654px;
+top: 10px;
+
+}
+.vector1{
+    position: absolute;
+left: 4px;
+right: 20%;
+top: 20.83%;
+bottom: 16.67%;
+height: 25px;
+
+/* Secondary color */
+background: url(images/Vector1.png);
+
+}
+.vector2{
+    position: absolute;
+left: 15px;
+right: 18px;
+top: 4.5px;
+bottom: 45.83%;
+height: 18px;
+width: 18px;
+
+/* Secondary color */
+background: url(images/Vector.png);
+
+}
+.shipping{
+    position: absolute;
+width: 590px;
+height: 64px;
+left: 0px;
+top: 0px;
+
+/* Paragraph 01 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+letter-spacing: 0.02em;
+margin: 0px;
+/* Secondary color */
+
+color: #1F1F1F;
+
+}
+.orderid{
+    position: absolute;
+width: 166px;
+height: 32px;
+left: 1px;
+top: 0px;
+
+/* Paragraph 01 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.02em;
+margin: 0px;
+/* Secondary color */
+
+color: #1F1F1F;
+
+}
+.tracking{
+    
+position: absolute;
+width: 830px;
+height: 100px;
+left: 1px;
+top: 136px;
+
+}
+.deliverytracking{
+    
+position: absolute;
+width: 132px;
+height: 55px;
+left: 698px;
+top: 21px;
+}
+.pending{
+    position: absolute;
+width: 132px;
+height: 11px;
+left: 10px;
+top: 42px;
+
+/* Paragraph 02 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+margin: 0px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+}
+.frame{
+    
+box-sizing: border-box;
+
+position: absolute;
+width: 29px;
+height: 29px;
+left: 103px;
+top: 0px;
+
+background: #FFFFFF;
+/* Accent color 1 */
+
+border: 2px solid #D97642;
+border-radius: 35px;
+}
+.frame1{
+    position: absolute;
+width: 14px;
+height: 14px;
+left: 6px;
+top: 6px;
+
+/* Secondary color */
+
+background: #1F1F1F;
+border-radius: 10px;
+}
+.shipping1{
+    
+position: absolute;
+width: 162px;
+height: 55px;
+left: 329px;
+top: 21px;
+}
+.sucessmark1{
+    box-sizing: border-box;
+
+position: absolute;
+width: 29px;
+height: 29px;
+left: 61px;
+top: 0px;
+
+background: #FFFFFF;
+/* Accent color 1 */
+
+border: 2px solid #D97642;
+border-radius: 35px;
+}
+.tick{
+    
+position: absolute;
+left: 6.5px;
+right: 5px;
+top: 5px;
+bottom: 25%;
+height: 12px;
+/* Accent color 1 */
+background: url(images/tick.png);
+;
+}
+.shippedon{
+    position: absolute;
+width: 162px;
+height: 11px;
+left: 0px;
+top: 42px;
+
+/* Paragraph 02 */
+margin: 0px;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+}
+.orderplacement{
+    position: absolute;
+width: 133px;
+height: 79px;
+left: 0px;
+top: 21px;
+}
+.orderplacedon{
+    position: absolute;
+width: 134px;
+height: 35px;
+left: 0px;
+top: 43px;
+
+/* Paragraph 02 */
+margin: 0px;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+}
+.sucessmark2{
+    box-sizing: border-box;
+
+position: absolute;
+width: 29px;
+height: 29px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+/* Accent color 1 */
+
+border: 2px solid #D97642;
+border-radius: 35px;
+}
+.line{
+    position: absolute;
+width: 810px;
+height: 0px;
+left: 5px;
+top: 37px;
+
+/* Secondary color */
+
+border: 2px solid #1F1F1F;
+}
